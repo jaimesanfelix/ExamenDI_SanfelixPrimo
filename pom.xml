@@ -29,13 +29,13 @@
       <groupId>org.junit.jupiter</groupId>
       <artifactId>junit-jupiter-api</artifactId>
       <version>${junit.version}</version>
-      <scope>test</scope>
+      <scope>TestPuestoPracticas</scope>
     </dependency>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
-      <artifactId>junit-jupiter-engine</artifactId>
+      <artifactId>junit-jupiter</artifactId>
       <version>${junit.version}</version>
-      <scope>test</scope>
+      <scope>TestPuestoPracticas</scope>
     </dependency>  </dependencies>
 
   <build>
@@ -58,7 +58,7 @@
             <!-- Default configuration for running with: mvn clean javafx:run -->
             <id>default-cli</id>
             <configuration>
-              <mainClass>com.recuperacion.recuperacionordinaria/com.recuperacion.recuperacionordinaria.HelloApplication</mainClass>
+              <mainClass>com.recuperacion.recuperacionordinaria/com.recuperacion.recuperacionordinaria.MainAplication</mainClass>
               <launcher>app</launcher>
               <jlinkZipName>app</jlinkZipName>
               <jlinkImageName>app</jlinkImageName>
